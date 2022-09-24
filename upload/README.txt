@@ -1,0 +1,1 @@
+This folder holds all the images and documents that are uploaded.
