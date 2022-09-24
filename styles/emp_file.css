@@ -1,0 +1,96 @@
+*{
+      margin: 0;
+    }
+
+@media print
+    {
+      #back,.hname,.sb,#reprint,footer,.btn
+      {
+        display: none;
+      }
+      body
+      {
+        background: none!important;
+      }
+    }
+.box-body
+{
+  margin:auto;
+  width:800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height:auto;
+  background-color: rgba(245,245,220,0.7);
+  border:0.5px solid black;
+  padding-bottom: 20px;
+}
+.heading
+{
+  margin-left: 0px;
+  background-color: rgb(0,71,71); 
+  padding-top: 0px!important;
+  margin-bottom: 0px;
+}
+    
+h1
+    {
+      text-align: center;
+      font-size: 55px;
+      font-family: for_heading;
+      color:white;
+    }
+
+    .heading1
+    {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 0px;
+      background-color: gray;
+    }
+
+     h3
+    {
+      color:white;
+      font-family: for_label1;
+    }
+    
+    .heading2
+    {
+      margin-top:0px;
+      margin-bottom: 5px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 80px!important;
+      
+    }
+
+    h2
+    {
+      font-family: for_body;
+      text-decoration: underline 5px;
+      
+      font-size: 40px;
+      color: rgb(0, 80, 80);
+    }
+
+    .label1
+    {
+      font-weight: bold;
+      font-size: 20px;
+      font-family:for_label1;
+    }
+
+    body 
+    {
+      font-size: 18px;
+    }
+
+#reprint
+  {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-family: for_label1;
+  }
+    

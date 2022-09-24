@@ -1,0 +1,70 @@
+@media (max-width: 576px) {
+    .container{
+        max-width: 92vw;
+      }
+      #area
+      {
+        overflow-x: scroll!important;
+      }
+      #area table
+      {
+        width: 250%!important;
+      }
+    }
+
+      
+    @media (min-width: 576px) {
+    .container{
+        max-width: 94vw;
+      }
+      #area
+      {
+        overflow-x: scroll!important;
+      }
+      #area table
+      {
+        width: 170%!important;
+      }
+    }
+
+    @media (min-width: 768px) {
+    .container{
+        max-width: 92vw;
+      }
+      #area
+      {
+        overflow-x: scroll!important;
+      }
+      #area table
+      {
+        width: 120%!important;
+      }
+    }
+
+    @media (min-width: 992px) {
+    .container{
+        max-width: 95vw;
+      }
+      #area
+      {
+        overflow-x: scroll!important;
+      }
+      #area table
+      {
+        width: 100%!important;
+      }
+    }
+
+    @media (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+      }
+      #area
+      {
+        overflow-x: hidden!important;
+      }
+      #area table
+      {
+        width: 100%!important;
+      }
+    }  

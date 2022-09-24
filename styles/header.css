@@ -1,0 +1,333 @@
+   @import "fonts.css";
+    
+    @media (max-width: 576px) {
+      .hname
+      {
+        font-size: 235%!important;
+      }
+      #logo
+      {
+        width: 100px!important;
+      }
+      #date
+      {
+        font-size: 18px!important;
+      }
+      #day
+      {
+        display: none!important;
+      }
+      #clock
+      {
+        font-size: 25px!important;
+      }
+      #dc 
+      {
+        width: 20%!important;
+      }
+
+      #cc 
+      {
+        display: none!important;
+      }
+
+      #uname 
+      {
+        width: 50%!important;
+      }
+
+      .logout
+      {
+        width: 10%!important;
+      }
+    }
+
+      
+    @media (min-width: 576px) {
+    .hname
+      {
+        font-size: 270%!important;
+      }
+      #logo
+      {
+        width: 110px!important;
+      }
+      #dc 
+      {
+        width: 30%!important;
+      }
+      #cc 
+      {
+        width: 20%!important;
+      }
+
+      #uname 
+      {
+        width: 50%!important;
+      }
+
+      .logout
+      {
+        
+      }
+      #date
+      {
+        font-size: 20px!important;
+      }
+      #day
+      {
+        display: none!important;
+      }
+      #clock
+      {
+        font-size: 25px!important;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .hname
+      {
+        font-size: 340%!important;
+      }
+      #logo
+      {
+        width: 110px!important;
+      }
+      #cc 
+      {
+        width: 30%!important;
+      }
+      #day 
+      {
+        display: inline-block!important;
+      }
+    }
+
+    @media (min-width: 992px) {
+    
+    }
+
+    @media (min-width: 1200px) {
+      #dc 
+      {
+        width: 480px!important;
+      }
+      #cc 
+      {
+        width: 570px;
+      }
+
+      #uname 
+      {
+        width: 35vw!important;
+      }
+
+      .logout
+      {
+        
+      }
+      #date
+      {
+        font-size: 20px!important;
+      }
+      #day
+      {
+        display: inline-block!important;
+        font-size: 18px!important;
+      }
+      #clock
+      {
+        font-size: 28px!important;
+      }
+      
+    }  
+
+
+    #bttn 
+    {
+      border: 1px solid #004747;
+      background: linear-gradient(90deg,#004747,#008080);
+      padding: 5px 20px;
+      font-size: 18px;
+      border-radius: 40px;
+      transition: 0.3s;
+    }
+    .mheading,.heading,.main-heading
+    {
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+    }
+    .box-body,.table-body
+    {
+      border-radius: 20px;
+    }
+    #bttn:hover
+    {
+      background: linear-gradient(90deg,#005555,#004747);
+      transform: scale(1.05);
+    }
+    #btt2
+    {
+      background: linear-gradient(90deg,#FF0022,#FF0022);
+      padding: 5px 20px;
+      font-size: 18px;
+      margin: 10px;
+      color: white;
+      border-radius: 40px;
+      transition: 0.3s;
+    }
+    #btt2:hover
+    {
+      color: white;
+      background: linear-gradient(90deg,#DD0000,#EE0220);
+      transform: scale(1.05);
+    }
+
+
+   .hname
+    {
+      text-align:center;
+      padding-top: 1px;
+      font-size:40pt;
+      font-family: for_heading;
+      background-color: rgb(0,71,71);
+      color:white;
+      box-shadow: 2px 2px 10px black!important;
+    }
+
+    #mySidebar
+    {
+      width: 267px;
+      box-shadow: 3px 3px 3px black!important;
+      background-color: beige;
+      font-size: 20px;
+      font-family: for_label1;
+      color:#004747;
+      overflow-y: scroll!important;
+      height:83.2vh;
+    }
+    
+    .closer
+    {
+      background-color: lightgray;
+    }
+
+    .sb
+    {
+      padding: 0px;
+      background-color: beige;
+      height: 46px;
+      opacity: 0.7;
+    }
+
+    #mySidebar a:hover
+    {
+      background-color: #004747!important;
+      font-size: 20px!important;
+      color:white!important;
+      text-decoration: none!important;
+      padding-bottom: 6px!important;
+    }
+    
+    #lo
+    {
+      margin-right:5px;
+      color: #004747;
+      text-align: right;
+      font-size: 18px!important;
+      font-weight: bold;
+      font-family: for_body;
+      -webkit-transition: 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out,-moz-transform 0.3s ease-in-out;
+    }
+
+    #lo:hover
+    {
+      margin-right:5px;
+      color: red!important;
+      text-align: right;
+      background-color: beige!important;
+      vertical-align: middle!important;
+      font-size: 19px!important;
+      font-weight: bold;
+      font-family: for_body;
+    }
+
+    #clock
+    { 
+      
+      text-align: center;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 28px;
+      padding-top: 10px!important;
+      font-family: for_clock;
+    } 
+
+    #date
+    {
+      text-align: center;
+      vertical-align: middle;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: for_label1;
+      color: #004747;
+    }
+
+    #day
+    {
+      margin-right:10px;
+      color: #004747;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: for_body;
+    }
+    
+    #uname{
+      margin-right:10px;
+      width: 35vw;
+      color: #004747;
+      text-align: right;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: for_body;
+    }
+
+    #user-name
+    {
+      cursor: pointer;
+      -webkit-transition: 0.3s ease-in-out,-webkit-transform 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out,-moz-transform 0.3s ease-in-out;
+    }
+    #user-name:hover
+    {
+      font-size: 19px;
+      color: black;
+    }
+    
+    footer
+    {
+      background-color: rgb(0,71,71);
+      text-align: center;
+      padding: 10px;
+      color: white;
+      font-size: 17px;
+      font-family: for_label1;
+    }
+
+    main
+    {
+      min-height: calc(100vh - 148.19px - 45px);
+    }
+
+    body
+    {
+      background-image: url(../images/bg3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      font-family:for_body;
+    }

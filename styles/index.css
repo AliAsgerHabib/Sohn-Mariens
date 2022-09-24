@@ -1,0 +1,183 @@
+@import "fonts.css";
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media (max-width: 576px)
+{
+	.box-body
+	{
+		margin-left: 90px!important;
+	}
+	.marg
+	{
+		width: 14px!important;
+	}
+}
+
+@media (min-width: 576px)
+{
+	.box-body
+	{
+		margin-left: 80px!important;
+	}
+	.marg
+	{
+		width: 11px;
+	}
+}
+
+@media (min-width: 768px)
+{
+	.box-body
+	{
+		margin-left: 170px!important;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.box-body
+	{
+		margin-left: 300px!important;
+	}
+	.marg 
+	{
+		width: 0px;
+	}
+
+}
+
+@media (min-width: 1200px)
+{
+	.box-body
+	{
+		margin-left: 400px!important;
+	}
+	.marg 
+	{
+		width: 0px;
+	}
+
+}
+
+body
+{
+	font-family: sans-serif;
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed!important;
+  background-position: center;
+}
+
+header
+{
+	padding-top: 10px;
+	padding-bottom: 4px;
+	text-align: center;
+	font-size: 39pt;
+	font-family: for_heading;
+  background-color: gray;
+  opacity: 0.9;
+  color:white;
+  box-shadow: 2px 2px 10px black;
+}
+
+main
+{
+	min-height: calc(100vh - 92px - 45px);
+}
+
+.box-body
+{
+	width:600px;
+  height:auto;
+  margin-left: 400px;
+  margin:80px;
+  padding: 10px;
+  box-shadow:5px 5px 20px grey;
+  background-color: rgba(202,204,206,0.8);
+	border-radius: 20px;
+  color:black;
+}
+
+.box-body input
+{
+	width:100%;
+  background: none;
+  border:none;
+  border-radius: 3px;
+  font-size:18px;
+  border-bottom: 2px solid black;
+  font-family:for_body;
+  color:black;
+}
+
+.box-body input:focus
+{
+  outline:0px;
+}
+
+.heading
+{
+	color:black;
+	font-weight: bold;
+  font-size:55px;
+  text-align:center;
+  margin-bottom: 35px;
+  margin-top: none;
+  font-family: for_label;
+}
+
+.login-btn
+{
+  border: 1px solid black!important;
+  padding: 4px 20px!important;
+  font-size: 20px!important;
+  border-radius: 40px!important;
+  transition: 0.3s!important;
+  background: linear-gradient(90deg,#000000,#000000)!important;
+  color:white!important;
+}
+
+.login-btn:hover
+{
+	transform: scale(1.05);
+	background: linear-gradient(90deg,#444444,#222222)!important;
+  
+}
+
+.error
+{
+  color:red;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+footer
+{
+	text-align: center;
+	background-color: gray;
+	padding: 10px;
+  color: white;
+  font-size: 17px;
+  font-family: for_label1;
+  opacity: 0.9;
+  box-shadow: 2px 2px 10px black;
+}
+
+    @media screen and (max-width: 576px)
+    {
+      header
+      {
+        font-size: 300%;
+      }
+      main 
+      {
+      	min-height: calc(100vh - 80px - 45px);
+      }
+    }

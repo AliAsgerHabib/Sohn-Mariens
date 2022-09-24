@@ -1,0 +1,23 @@
+@font-face
+{
+  font-family:for_heading;
+  src:url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face
+{
+  font-family:for_body;
+  src:url(../fonts/RocknRollOne-Regular.ttf);
+}
+
+@font-face
+{
+  font-family:for_label1;
+  src:url(../fonts/NotoSansJP-Bold.otf);
+}
+
+@font-face
+{
+  font-family:for_clock;
+  src:url(../fonts/digital.ttf);
+}
